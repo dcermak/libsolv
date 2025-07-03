@@ -1,0 +1,9 @@
+include README
+include LICENSE*
+include VERSION.cmake
+include CMakeLists.txt
+include *.pc.in
+recursive-include cmake *.cmake
+recursive-include src *.c *.h *.in *.ver
+recursive-include ext *.c *.h
+recursive-include bindings *.i *.cmake __init__.py
